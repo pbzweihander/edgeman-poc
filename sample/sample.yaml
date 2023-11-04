@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sample-pod1
+  annotations:
+    edgeman.pbzweihander.dev/timestamp: 2023-11-04T00:00:00Z
+spec:
+  containers:
+  - name: sample-container1
+    image: busybox
+    command:
+    - tail
+    - -f
+    - /dev/null
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sample-pod2
+  annotations:
+    edgeman.pbzweihander.dev/timestamp: 2023-11-04T00:00:00Z
+spec:
+  containers:
+  - name: sample-container2
+    image: busybox
+    command:
+    - tail
+    - -f
+    - /dev/null

@@ -1,0 +1,7 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./edge/Cargo.toml",
+        "./edgeman/Cargo.toml",
+        "./edgeman-common/Cargo.toml"
+    ]
+}
