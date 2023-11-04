@@ -7,6 +7,8 @@ This is a proof of concept.
 ## Usage
 
 ```
+podman system service -t 0
+
 RUST_LOG=info \
   ID=sample-edge1 \
   EDGEMAN_URL=https://example.com \
